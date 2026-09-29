@@ -28,6 +28,14 @@ Quantities taken from papers are cited. Any invented quantities needed to create
 
 ## A first example
 
-Shimamoto et al. [-@shimamoto2018] synthesized tropical-forest restoration studies and compared five restoration strategies: natural regeneration, nucleation, reforestation with native species, reforestation with exotic species, and agroforestry. Their study quantified recovery of ecosystem services but did not formulate a mathematical programme for allocating a limited restoration budget among those strategies.
+Shimamoto et al. [-@shimamoto2018] synthesized tropical-forest restoration studies and compared five restoration strategies: 
 
-That distinction — **ecological response estimation versus constrained decision-making** — is the central space this course will explore.
+1. natural regeneration 
+2. nucleation 
+3. reforestation with native species
+4. reforestation with exotic species
+5. agroforestry 
+
+Their study quantified recovery of ecosystem services but did not formulate a mathematical programme for allocating a limited restoration budget among those strategies.
+
+That distinction; **ecological response estimation versus constrained decision-making**, is the central space this course will explore.

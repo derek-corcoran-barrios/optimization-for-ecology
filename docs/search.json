@@ -1,0 +1,153 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Optimization for Ecology",
+    "section": "",
+    "text": "Preface\nThis book is being written while I learn mathematical optimization for ecological and spatial-ecological applications.\nThe aim is not to translate industrial optimization examples by merely changing their names. Instead, each lesson asks how a mathematical structure emerges from a genuine ecological decision problem.\nThe conceptual progression follows AMPL: A Modeling Language for Mathematical Programming (Fourer et al. 2002), while the ecological examples and exercises are developed independently.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-workflow",
+    "href": "index.html#learning-workflow",
+    "title": "Optimization for Ecology",
+    "section": "Learning workflow",
+    "text": "Learning workflow\nFor every topic, the workflow is:\n\nUnderstand the mathematical idea.\nExplain it in ecological language.\nFormulate the problem mathematically before touching AMPL.\nImplement the formulation in AMPL.\nInterpret what the solution means ecologically.\nStress-test the assumptions.\nTeach the topic only after the preceding steps are solid.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#evidence-first-exercises",
+    "href": "index.html#evidence-first-exercises",
+    "title": "Optimization for Ecology",
+    "section": "Evidence-first exercises",
+    "text": "Evidence-first exercises\nWhenever possible, exercises begin with a published ecological study that compares alternative interventions or management pathways and reports outcomes such as biodiversity, carbon, survival, vegetation structure, or restoration success.\nThe original study does not need to perform optimization. In fact, the most useful studies for this course often stop one step earlier: they estimate the ecological consequences of alternative actions. The exercise then asks what a decision-maker should do when resources, land, labour, or other constraints are limited.\nQuantities taken from papers are cited. Any invented quantities needed to create a teaching problem are explicitly marked as teaching assumptions.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#a-first-example",
+    "href": "index.html#a-first-example",
+    "title": "Optimization for Ecology",
+    "section": "A first example",
+    "text": "A first example\nShimamoto et al. (2018) synthesized tropical-forest restoration studies and compared five restoration strategies:\n\nnatural regeneration\nnucleation\nreforestation with native species\nreforestation with exotic species\nagroforestry\n\nTheir study quantified recovery of ecosystem services but did not formulate a mathematical programme for allocating a limited restoration budget among those strategies.\nThat distinction; ecological response estimation versus constrained decision-making, is the central space this course will explore.\n\n\n\n\nFourer, Robert, David M. Gay, and Brian W. Kernighan. 2002. AMPL: A Modeling Language for Mathematical Programming. 2nd ed. Duxbury/Thomson. https://ampl.com/wp-content/uploads/BOOK.pdf.\n\n\nShimamoto, Claudia Y., André A. Padial, Clarissa M. da Rosa, and Márcia C. M. Marques. 2018. “Restoration of Ecosystem Services in Tropical Forests: A Global Meta-Analysis.” PLOS ONE 13 (12): e0208523. https://doi.org/10.1371/journal.pone.0208523.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html",
+    "href": "chapters/01-ecological-actions.html",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "",
+    "text": "1.1 AMPL connection\nThis chapter develops the ideas introduced in Chapter 1, Production Models: Maximizing Profits, of Fourer, Gay, and Kernighan (Fourer et al. 2002).\nThe industrial example is not the goal. The useful mathematical pattern is:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#ampl-connection",
+    "href": "chapters/01-ecological-actions.html#ampl-connection",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "",
+    "text": "several possible actions produce benefits, each consumes limited resources, and we must decide how much of each action to undertake.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#what-i-need-to-learn",
+    "href": "chapters/01-ecological-actions.html#what-i-need-to-learn",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.2 What I need to learn",
+    "text": "1.2 What I need to learn\nBefore writing AMPL code, I should be able to explain in my own words:\n\nWhat is a decision variable?\nWhat is an objective function?\nWhat makes a constraint a resource constraint?\nWhat is a coefficient and what does its unit mean?\nWhat is a bound?\nWhy is the model linear?\nWhich assumptions are hidden when ecological benefit is represented as a constant benefit per unit area?\n\n\nLearning rule: The prose and equations in the sections below should be written from my own understanding before the worked solution is consulted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#my-explanation",
+    "href": "chapters/01-ecological-actions.html#my-explanation",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.3 My explanation",
+    "text": "1.3 My explanation\n\n1.3.1 Decision variables\nTODO: write this after reading the relevant AMPL section.\n\n\n1.3.2 Objective functions\nTODO.\n\n\n1.3.3 Constraints\nTODO.\n\n\n1.3.4 Linearity and ecological assumptions\nTODO.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#scientific-anchor-tropical-forest-restoration-pathways",
+    "href": "chapters/01-ecological-actions.html#scientific-anchor-tropical-forest-restoration-pathways",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.4 Scientific anchor: tropical forest restoration pathways",
+    "text": "1.4 Scientific anchor: tropical forest restoration pathways\nShimamoto et al. (2018) conducted a global meta-analysis of tropical-forest restoration and compared five restoration strategies:\n\nnatural regeneration,\nnucleation,\nreforestation with native species,\nreforestation with exotic species, and\nagroforestry.\n\nThe study evaluated recovery of ecosystem services using ecological indicators related to carbon pools, soil attributes, and biodiversity protection. It therefore gives us empirical evidence about alternative restoration pathways.\nThe study does not answer a different management question:\n\nIf a manager has a finite area, budget, workforce, or nursery capacity, how much land should be assigned to each restoration strategy?\n\nThat is where optimization enters.\nA second useful empirical example is Bechara et al. (2021), who directly compared natural regeneration, applied nucleation, and high-diversity plantation restoration in the Brazilian Atlantic Forest and also reported implementation costs. This study will be useful when we begin thinking explicitly about trade-offs between ecological outcomes and resource use.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#exercise-1-formulation",
+    "href": "chapters/01-ecological-actions.html#exercise-1-formulation",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.5 Exercise 1 — formulation",
+    "text": "1.5 Exercise 1 — formulation\nNot yet released.\nThe exercise will be constructed only after the chapter concepts above have been written in my own words.\nThe ecological-response coefficients will be tied to published evidence where defensible. Any quantities added only to make a solvable teaching problem — for example a hypothetical municipal budget — will be labelled as teaching assumptions rather than attributed to the source paper.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#ampl-implementation",
+    "href": "chapters/01-ecological-actions.html#ampl-implementation",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.6 AMPL implementation",
+    "text": "1.6 AMPL implementation\nNot yet written.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#ecological-interpretation",
+    "href": "chapters/01-ecological-actions.html#ecological-interpretation",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.7 Ecological interpretation",
+    "text": "1.7 Ecological interpretation\nNot yet written.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-ecological-actions.html#what-assumptions-would-make-the-answer-misleading",
+    "href": "chapters/01-ecological-actions.html#what-assumptions-would-make-the-answer-misleading",
+    "title": "1  Choosing ecological actions under limited resources",
+    "section": "1.8 What assumptions would make the answer misleading?",
+    "text": "1.8 What assumptions would make the answer misleading?\nNot yet written.\n\n\n\n\nBechara, Fernando Campanha, Bruna Elisa Trentin, Vera Lex Engel, Daniela Aparecida Estevan, and Tamara Ticktin. 2021. “Performance and Cost of Applied Nucleation Versus High-Diversity Plantations for Tropical Forest Restoration.” Forest Ecology and Management 491: 119088. https://doi.org/10.1016/j.foreco.2021.119088.\n\n\nFourer, Robert, David M. Gay, and Brian W. Kernighan. 2002. AMPL: A Modeling Language for Mathematical Programming. 2nd ed. Duxbury/Thomson. https://ampl.com/wp-content/uploads/BOOK.pdf.\n\n\nShimamoto, Claudia Y., André A. Padial, Clarissa M. da Rosa, and Márcia C. M. Marques. 2018. “Restoration of Ecosystem Services in Tropical Forests: A Global Meta-Analysis.” PLOS ONE 13 (12): e0208523. https://doi.org/10.1371/journal.pone.0208523.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Choosing ecological actions under limited resources</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Bechara, Fernando Campanha, Bruna Elisa Trentin, Vera Lex Engel, Daniela\nAparecida Estevan, and Tamara Ticktin. 2021. “Performance and Cost\nof Applied Nucleation Versus High-Diversity Plantations for Tropical\nForest Restoration.” Forest Ecology and Management 491:\n119088. https://doi.org/10.1016/j.foreco.2021.119088.\n\n\nFourer, Robert, David M. Gay, and Brian W. Kernighan. 2002. AMPL: A\nModeling Language for Mathematical Programming. 2nd ed.\nDuxbury/Thomson. https://ampl.com/wp-content/uploads/BOOK.pdf.\n\n\nShimamoto, Claudia Y., André A. Padial, Clarissa M. da Rosa, and Márcia\nC. M. Marques. 2018. “Restoration of Ecosystem Services in\nTropical Forests: A Global Meta-Analysis.” PLOS ONE 13\n(12): e0208523. https://doi.org/10.1371/journal.pone.0208523.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "solutions/01-solutions.html",
+    "href": "solutions/01-solutions.html",
+    "title": "Appendix A — Solutions to Chapter 1",
+    "section": "",
+    "text": "A.1 Exercise 1\nWorked solutions belong here only after the corresponding exercise has been attempted.\nThe purpose of the appendix is to preserve a complete teaching resource without making the solution the first thing seen during learning.\nSolution intentionally withheld until the exercise has been attempted and reviewed.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Solutions to Chapter 1</span>"
+    ]
+  }
+]
