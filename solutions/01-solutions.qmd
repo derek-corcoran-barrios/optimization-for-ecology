@@ -1,0 +1,9 @@
+# Solutions to Chapter 1
+
+Worked solutions belong here **only after the corresponding exercise has been attempted**.
+
+The purpose of the appendix is to preserve a complete teaching resource without making the solution the first thing seen during learning.
+
+## Exercise 1
+
+_Solution intentionally withheld until the exercise has been attempted and reviewed._
