@@ -9,14 +9,34 @@ bibliography: ../references.bib
 
 - why is optimization important in ecology
 
-## Examples of opimization in ecology
+## Examples of optimization in ecology
+
+* **Which places should be protected?:** Spatial priorities subject to area/cost targets 
+* **Where and how intensively should an invasive species be controlled?:** Trap/control effort through space and time
+* **Where should we search for an invasive species?:** Surveillance effort among sites
+* **How many animals should be released, and where?:** Translocation allocation through time
+* **What habitat should be restored first?:** Sequence, location, and type of restoration actions
+* **When should ecological disturbance be imposed?:** Timing of prescribed burning conditional on ecosystem state
+* **How much wildlife can be harvested, and which demographic classes?:** Harvest rate and composition conditional on population state
+* **How should limited effort be distributed when the system is uncertain?:** Immediate management versus actions that produce information
+
+## Spatial conservation and extinction-risk reduction
 
 ::: {.column width="50%"}
-* It has been widely used to allocate conservation planning as seeb in hanna 2020 [@hannah202030]
+* It has been widely used to allocate conservation planning as seen in hanna 2020 [@hannah202030]
+* By changing the budget we can check how extinction risk goes down and find where does it stabilizes
 :::
 
 ::: {.column width="50%"}
 ![](https://nsojournals.onlinelibrary.wiley.com/cms/asset/b4587545-3f22-49b6-bf4a-b4b957bd8ea7/ecog12575-fig-0002-m.jpg){fig-align="center" width="60%"}
 :::
+
+## Spatial conservation and extinction-risk reduction (cont.)
+
+![](https://nsojournals.onlinelibrary.wiley.com/cms/asset/bc91bd34-3480-4668-b8c3-b2fc332d1948/ecog12575-fig-0001-m.jpg){fig-align="center" width="90%"}
+
+## Glossary
+
+* Maximize or minimize an objective function of many variables
 
 ## References
