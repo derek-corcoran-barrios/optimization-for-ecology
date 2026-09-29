@@ -1,0 +1,81 @@
+# Choosing ecological actions under limited resources
+
+## AMPL connection
+
+This chapter develops the ideas introduced in Chapter 1, *Production Models: Maximizing Profits*, of Fourer, Gay, and Kernighan [@fourer2002ampl].
+
+The industrial example is not the goal. The useful mathematical pattern is:
+
+> several possible actions produce benefits, each consumes limited resources, and we must decide how much of each action to undertake.
+
+## What I need to learn
+
+Before writing AMPL code, I should be able to explain in my own words:
+
+- What is a decision variable?
+- What is an objective function?
+- What makes a constraint a resource constraint?
+- What is a coefficient and what does its unit mean?
+- What is a bound?
+- Why is the model linear?
+- Which assumptions are hidden when ecological benefit is represented as a constant benefit per unit area?
+
+> **Learning rule:** The prose and equations in the sections below should be written from my own understanding before the worked solution is consulted.
+
+## My explanation
+
+### Decision variables
+
+_TODO: write this after reading the relevant AMPL section._
+
+### Objective functions
+
+_TODO._
+
+### Constraints
+
+_TODO._
+
+### Linearity and ecological assumptions
+
+_TODO._
+
+## Scientific anchor: tropical forest restoration pathways
+
+Shimamoto et al. [-@shimamoto2018] conducted a global meta-analysis of tropical-forest restoration and compared five restoration strategies:
+
+- natural regeneration,
+- nucleation,
+- reforestation with native species,
+- reforestation with exotic species, and
+- agroforestry.
+
+The study evaluated recovery of ecosystem services using ecological indicators related to carbon pools, soil attributes, and biodiversity protection. It therefore gives us empirical evidence about alternative restoration pathways.
+
+The study does **not** answer a different management question:
+
+> If a manager has a finite area, budget, workforce, or nursery capacity, how much land should be assigned to each restoration strategy?
+
+That is where optimization enters.
+
+A second useful empirical example is Bechara et al. [-@bechara2021], who directly compared natural regeneration, applied nucleation, and high-diversity plantation restoration in the Brazilian Atlantic Forest and also reported implementation costs. This study will be useful when we begin thinking explicitly about trade-offs between ecological outcomes and resource use.
+
+## Exercise 1 — formulation
+
+_Not yet released._
+
+The exercise will be constructed only after the chapter concepts above have been written in my own words.
+
+The ecological-response coefficients will be tied to published evidence where defensible. Any quantities added only to make a solvable teaching problem — for example a hypothetical municipal budget — will be labelled as teaching assumptions rather than attributed to the source paper.
+
+## AMPL implementation
+
+_Not yet written._
+
+## Ecological interpretation
+
+_Not yet written._
+
+## What assumptions would make the answer misleading?
+
+_Not yet written._
