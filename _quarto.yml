@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Optimization for Ecology"
+  subtitle: "Learning mathematical optimization through ecological and spatial-ecological problems"
+  author: "Derek Corcoran"
+  repo-url: "https://github.com/derek-corcoran-barrios/optimization-for-ecology"
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - chapters/01-ecological-actions.qmd
+    - references.qmd
+  appendices:
+    - solutions/01-solutions.qmd
+
+bibliography: references.bib
+
+license: "CC BY 4.0"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    code-fold: show
+  pdf:
+    documentclass: scrreprt
+
+execute:
+  freeze: auto
