@@ -1,0 +1,22 @@
+---
+title: "Introduction to the course"
+author: "Derek Corcoran"
+format: revealjs
+bibliography: ../references.bib
+---
+
+## Optimization
+
+- why is optimization important in ecology
+
+## Examples of opimization in ecology
+
+::: {.column width="50%"}
+* It has been widely used to allocate conservation planning as seeb in hanna 2020 [@hannah202030]
+:::
+
+::: {.column width="50%"}
+![](https://nsojournals.onlinelibrary.wiley.com/cms/asset/b4587545-3f22-49b6-bf4a-b4b957bd8ea7/ecog12575-fig-0002-m.jpg){fig-align="center" width="60%"}
+:::
+
+## References

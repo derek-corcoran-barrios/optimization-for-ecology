@@ -1,0 +1,16 @@
+---
+title: "Choosing ecological actions under limited resources"
+author: "Derek Corcoran"
+format: revealjs
+---
+
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
