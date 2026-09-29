@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or adapt this course/book, please cite it and credit the author."
+title: "Optimization for Ecology"
+authors:
+  - family-names: "Corcoran"
+    given-names: "Derek"
+repository-code: "https://github.com/derek-corcoran-barrios/optimization-for-ecology"
+license: "CC-BY-4.0"
+date-released: 2026-09-29
+preferred-citation:
+  type: book
+  title: "Optimization for Ecology"
+  authors:
+    - family-names: "Corcoran"
+      given-names: "Derek"
+  year: 2026
+  url: "https://github.com/derek-corcoran-barrios/optimization-for-ecology"
