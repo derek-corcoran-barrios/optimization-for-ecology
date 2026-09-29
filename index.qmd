@@ -1,0 +1,33 @@
+# Preface {.unnumbered}
+
+This book is being written while I learn mathematical optimization for ecological and spatial-ecological applications.
+
+The aim is not to translate industrial optimization examples by merely changing their names. Instead, each lesson asks how a mathematical structure emerges from a genuine ecological decision problem.
+
+The conceptual progression follows *AMPL: A Modeling Language for Mathematical Programming* [@fourer2002ampl], while the ecological examples and exercises are developed independently.
+
+## Learning workflow
+
+For every topic, the workflow is:
+
+1. **Understand** the mathematical idea.
+2. **Explain** it in ecological language.
+3. **Formulate** the problem mathematically before touching AMPL.
+4. **Implement** the formulation in AMPL.
+5. **Interpret** what the solution means ecologically.
+6. **Stress-test** the assumptions.
+7. **Teach** the topic only after the preceding steps are solid.
+
+## Evidence-first exercises
+
+Whenever possible, exercises begin with a published ecological study that compares alternative interventions or management pathways and reports outcomes such as biodiversity, carbon, survival, vegetation structure, or restoration success.
+
+The original study does not need to perform optimization. In fact, the most useful studies for this course often stop one step earlier: they estimate the ecological consequences of alternative actions. The exercise then asks what a decision-maker should do when resources, land, labour, or other constraints are limited.
+
+Quantities taken from papers are cited. Any invented quantities needed to create a teaching problem are explicitly marked as **teaching assumptions**.
+
+## A first example
+
+Shimamoto et al. [-@shimamoto2018] synthesized tropical-forest restoration studies and compared five restoration strategies: natural regeneration, nucleation, reforestation with native species, reforestation with exotic species, and agroforestry. Their study quantified recovery of ecosystem services but did not formulate a mathematical programme for allocating a limited restoration budget among those strategies.
+
+That distinction — **ecological response estimation versus constrained decision-making** — is the central space this course will explore.
